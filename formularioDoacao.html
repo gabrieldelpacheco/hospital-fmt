@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/formularioDoacao.css">
+    <title>PRÉ-CADASTRO PARA DOAÇÃO</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="imagens/cruz64.png" alt="desenho de uma cruz"></a>
+        <nav>
+            <ul id="navbar">
+                <li class="navbar_li"><a href="#">Eventos</a></li>
+                <li class="navbar_li"><a href="#">Sobre</a></li>
+                <li class="navbar_li"><a href="#">Contato</a></li>
+                <li class="navbar_li"><a href="campanha.html">Campanhas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article id="preCadastroDeDoacao">
+        <form id="formulario">
+            <label for="name">Nome completo</label>
+            <input id="name" class="formulario_input" type="text" placeholder="Nome completo do doador.">
+            <label for="cpf">Informe CPF</label>
+            <input id="cpf" class="formulario_input" type="number" placeholder="CPF">
+            <label for="sanguineo">Tipo sanguíneo</label>
+            <select name="" id="sanguineo"  >
+            <optgroup class="formulario_input">
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="o">O</option>
+            <option value="ab">AB</option>
+        </optgroup>
+    </select>
+    <label for="dataHora">Agende data e hora</label>
+    <input id="dataHora" class="formulario_input" type="datetime-local">
+    <button>Enviar</button>
+    <button>Reset</button>
+        </form>
+    </article>
+    </body>
+</html>
