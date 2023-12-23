@@ -5,11 +5,11 @@ header {
     background-color: beige;
 }
 
-ul {
+#navbar {
     display: flex;
 }
 
-li {
+.navbar_li {
     list-style: none;
     padding-left: 1rem;
 }
