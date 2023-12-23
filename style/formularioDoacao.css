@@ -1,0 +1,31 @@
+#preCadastroDeDoacao {
+    display: flex;
+    margin-top: .5rem;
+
+}
+
+#formulario {
+    border: solid;
+    border-radius: 10px;
+}
+
+.formulario_input {
+    display: block;
+    margin: .4rem .4rem;
+   
+}
+
+option {
+    margin: .4rem .4rem;
+}
+
+label {
+    display: flex;
+    font-size: 1rem;
+    border-top: .4rem;
+
+}
+
+button {
+    margin: .4rem;
+}
