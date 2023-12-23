@@ -6,9 +6,12 @@
 
 #formulario {
     margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
     border: solid;
     border-radius: 10px;
     padding: 10px;
+
 }
 
 .formulario_input {

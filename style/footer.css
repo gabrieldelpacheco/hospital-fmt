@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2px;
+    background-color: beige;
+    /* Estilos para o rodapé */
+    padding: 10px;
+    text-align: center;
+    /* A posição não é fixa, o rodapé seguirá o fluxo da página */
+    position: relative;
+    /* Adicionando margem superior para separar o rodapé do conteúdo principal */
+    margin-top: 20px;
+}
+
+.redeSocial {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
